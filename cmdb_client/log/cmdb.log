@@ -1,0 +1,10 @@
+2019-11-15 18:20:21,936 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "/Users/liuguixiang/data/cmdb/cmdb_client/lib/plugins/disk.py", line 18, in process
+    with open('files/diskout.txt', mode='r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'files/diskout.txt'
+
+2019-11-15 18:20:43,785 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "/Users/liuguixiang/data/cmdb/cmdb_client/lib/plugins/disk.py", line 18, in process
+    with open('file/diskout.txt', mode='r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'file/diskout.txt'
+
